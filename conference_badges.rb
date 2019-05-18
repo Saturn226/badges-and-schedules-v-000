@@ -1,7 +1,7 @@
 # Write your code here.
 
 def badge_maker(name)
-  "Hello, my name is #{name}"
+  "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(attendees)
@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   attendees.each do |index, attendee|
-    "Hello, #{attendee}! you'll be assigned to room #{index}"
+    "Hello, #{attendee}! you'll be assigned to room #{index}."
   end
 end
 
