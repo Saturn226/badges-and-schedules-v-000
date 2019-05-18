@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   attendees.collect.with_index(1) do |attendee, index|
-    "Hello, #{attendee}! you'll be assigned to room #{index}."
+    "Hello, #{attendee}! you'll be assigned to room #{index}!"
   end
 end
 
